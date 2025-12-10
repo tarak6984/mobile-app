@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.shipment.app"
+      "package": "com.shipment.app",
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,6 +31,13 @@
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b7ad3d53-e6f3-4608-8ef1-3573b472bb62"
+      }
+    },
+    "owner": "tarak6984",
+    "sdkVersion": "54.0.0"
   }
 }
